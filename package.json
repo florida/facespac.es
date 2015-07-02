@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "gulp",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "connect": "~2.14.3",
