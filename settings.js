@@ -46,8 +46,8 @@ module.exports = function(app, configurations, express) {
       }),
       cookie: { maxAge: maxAge }
     }));
-    app.use(checkApiKey);
-    app.use(clientBypassCSRF);
+//    app.use(checkApiKey);
+//    app.use(clientBypassCSRF);
     app.use(function (req, res, next) {
       res.locals.session = req.session;
 
